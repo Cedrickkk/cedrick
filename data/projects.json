@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Web Development Project",
+    "description": "A responsive web application built with React and Node.js.",
+    "image": "https://source.unsplash.com/random"
+  },
+  {
+    "title": "Machine Learning Model",
+    "description": "A Python-based machine learning model for image classification.",
+    "image": "https://source.unsplash.com/random"
+  },
+  {
+    "title": "Mobile App Development",
+    "description": "A cross-platform mobile app developed using Flutter.",
+    "image": "https://source.unsplash.com/random"
+  },
+  {
+    "title": "Data Analysis Project",
+    "description": "A data analysis project using SQL and Python to explore a dataset.",
+    "image": "https://source.unsplash.com/random"
+  }
+]

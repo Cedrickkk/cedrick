@@ -1,17 +1,51 @@
+import { useEffect, useState } from "react";
 import About from "./components/About";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import TechnologyStack from "./components/TechnologyStack";
+import Services from "./components/Services";
+import Contact from "./components/Contact";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "./components/ui/tooltip";
 
 export default function App() {
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    const fetchProjects = async () => {
+      const response = await fetch("http://localhost:8000/projects");
+      const projects = await response.json();
+      setProjects(projects);
+    };
+
+    fetchProjects();
+  }, []);
+
   return (
-    <div className="container mx-auto mt-9 max-w-6xl">
+    <div className="container mx-auto my-9 max-w-6xl">
       <Header />
       <main>
         <TechnologyStack />
         <About />
-        <Projects />
+        <Projects projects={projects} />
+        <Services />
       </main>
+      <footer>
+        {/* TODO: Create a contact form */}
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger>Hover</TooltipTrigger>
+            <TooltipContent>
+              <p>Add to library</p>
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+        <Contact />
+      </footer>
     </div>
   );
 }

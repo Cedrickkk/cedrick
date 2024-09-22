@@ -1,27 +1,46 @@
 import {
-  FaJs,
-  FaLaravel,
-  FaNode,
-  FaNodeJs,
-  FaPhp,
-  FaReact,
-} from "react-icons/fa";
+  DiJsBadge,
+  DiLaravel,
+  DiMongodb,
+  DiMysql,
+  DiNodejs,
+  DiPhp,
+  DiReact,
+} from "react-icons/di";
+import { IconContext } from "react-icons";
+import { TooltipProvider } from "./ui/tooltip";
+import IconToolTip from "./IconToolTip";
 
 export default function TechnologyStack() {
   return (
     <section className="flex flex-col items-center border-b border-b-slate-200 px-3 py-12">
-      <h3 className="text-2xl font-bold text-slate-800">Technology Stack</h3>
-      <p className="text-slate-700">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-      </p>
-      <div className="mt-5 flex flex-wrap items-center justify-center gap-4">
-        <FaJs size="4em" />
-        <FaReact size="4em" />
-        <FaPhp size="4em" />
-        <FaLaravel size="4em" />
-        <FaNode size="4em" />
-        <FaNodeJs size="4em" />
-      </div>
+      <h3 className="mb-2 text-2xl font-bold text-slate-800">
+        Technology Stack
+      </h3>
+      <p className="mb-4 text-slate-700">Technologies I am proficient in</p>
+
+      <IconContext.Provider value={{ size: "4.8rem" }}>
+        <div className="flex flex-wrap items-center justify-center gap-4">
+          <IconToolTip iconName="JavaScript">
+            <DiJsBadge />
+          </IconToolTip>
+          <IconToolTip iconName="React">
+            <DiReact />
+          </IconToolTip>
+          <IconToolTip iconName="PHP">
+            <DiPhp />
+          </IconToolTip>
+          <IconToolTip iconName="Laravel">
+            <DiLaravel />
+          </IconToolTip>
+          <IconToolTip iconName="MySQL">
+            <DiMysql />
+          </IconToolTip>
+          <IconToolTip iconName="MongoDB">
+            <DiMongodb />
+          </IconToolTip>
+        </div>
+      </IconContext.Provider>
     </section>
   );
 }

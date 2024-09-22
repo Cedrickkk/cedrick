@@ -1,6 +1,8 @@
 import { AvatarFallback, Avatar, AvatarImage } from "./ui/avatar";
 import myImage from "../assets/me.png";
 import { Button } from "./ui/button";
+import { Badge } from "./ui/badge";
+import { FaMapPin } from "react-icons/fa";
 
 export default function Header() {
   return (
@@ -11,11 +13,15 @@ export default function Header() {
       </Avatar>
       <div className="mt-3">
         <div className="flex flex-col gap-2">
-          <h1 className="text-4xl font-bold text-slate-900">Cedrickkk</h1>
-          <p className="text-slate-700">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos,
-            repudiandae!
-          </p>
+          <h1 className="mb-1 text-4xl font-bold text-slate-900">Cedrickkk</h1>
+          <div className="text-slate-700">
+            Aspiring full-stack developer from
+            <Badge variant="secondary">
+              <FaMapPin />
+              Pasig, Philippines
+            </Badge>
+            eager to learn and grow.
+          </div>
         </div>
         <div className="mt-6 flex items-center gap-3">
           <Button>Contact Me</Button>

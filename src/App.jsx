@@ -1,3 +1,10 @@
+import { Button } from "./components/ui/button";
+
 export default function App() {
-  return <h1 className="container mx-auto">Cedrickkk</h1>;
+  return (
+    <div className="container mx-auto mt-4 flex justify-between">
+      <h1>Cedrickkk</h1>
+      <Button>Click Me</Button>
+    </div>
+  );
 }

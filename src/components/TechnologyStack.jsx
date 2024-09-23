@@ -3,12 +3,10 @@ import {
   DiLaravel,
   DiMongodb,
   DiMysql,
-  DiNodejs,
   DiPhp,
   DiReact,
 } from "react-icons/di";
 import { IconContext } from "react-icons";
-import { TooltipProvider } from "./ui/tooltip";
 import IconToolTip from "./IconToolTip";
 
 export default function TechnologyStack() {

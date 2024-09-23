@@ -5,12 +5,7 @@ import Projects from "./components/Projects";
 import TechnologyStack from "./components/TechnologyStack";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "./components/ui/tooltip";
+import NavigationBar from "./components/NavigationBar";
 
 export default function App() {
   const [projects, setProjects] = useState([]);
@@ -27,6 +22,7 @@ export default function App() {
 
   return (
     <div className="container mx-auto my-9 max-w-6xl">
+      <NavigationBar />
       <Header />
       <main>
         <TechnologyStack />
@@ -36,15 +32,8 @@ export default function App() {
       </main>
       <footer>
         {/* TODO: Create a contact form */}
-        <TooltipProvider>
-          <Tooltip>
-            <TooltipTrigger>Hover</TooltipTrigger>
-            <TooltipContent>
-              <p>Add to library</p>
-            </TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
         <Contact />
+        {/* TODO: Create a footer  */}
       </footer>
     </div>
   );

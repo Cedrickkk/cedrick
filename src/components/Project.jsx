@@ -11,7 +11,7 @@ import { Button } from "./ui/button";
 
 export default function Project({ title, description, image }) {
   return (
-    <Card className="w-full">
+    <Card>
       <CardHeader>
         <CardTitle>{title}</CardTitle>
         <CardDescription>{description}</CardDescription>

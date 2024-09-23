@@ -1,40 +1,67 @@
-import { useEffect, useState } from "react";
-import About from "./components/About";
 import Header from "./components/Header";
-import Projects from "./components/Projects";
-import TechnologyStack from "./components/TechnologyStack";
-import Services from "./components/Services";
-import Contact from "./components/Contact";
-import NavigationBar from "./components/NavigationBar";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import PageNotFound from "./pages/PageNotFound";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Header />,
+  },
+  {
+    path: "/about",
+    element: <About />,
+  },
+  {
+    path: "/projects",
+    element: <Projects />,
+  },
+  {
+    path: "*",
+    element: <PageNotFound />,
+  },
+]);
 
 export default function App() {
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    const fetchProjects = async () => {
-      const response = await fetch("http://localhost:8000/projects");
-      const projects = await response.json();
-      setProjects(projects);
-    };
-
-    fetchProjects();
-  }, []);
-
   return (
-    <div className="container mx-auto my-9 max-w-6xl">
-      <NavigationBar />
+    <div className="container mx-auto max-w-6xl">
+      <RouterProvider router={router} />
+    </div>
+  );
+}
+
+{
+  /* <NavigationBar />
       <Header />
-      <main>
+      <main className="h-screen">
         <TechnologyStack />
         <About />
         <Projects projects={projects} />
         <Services />
-      </main>
-      <footer>
-        {/* TODO: Create a contact form */}
-        <Contact />
-        {/* TODO: Create a footer  */}
-      </footer>
+      </main> */
+}
+
+{
+  /* <footer>
+<Contact />
+<div className="flex flex-col items-center justify-center gap-4 px-3 py-4">
+  <IconContext.Provider value={{ size: "1.4rem" }}>
+    <div>
+      <Button variant="link">
+        <FaFacebook />
+      </Button>
+      <Button variant="link">
+        <FaGithub />
+      </Button>
+      <Button variant="link">
+        <FaLinkedin />
+      </Button>
     </div>
-  );
+    <small>
+      &copy; 2024 <a href="">John Cedric Panti.</a> All rights reserved.
+    </small>
+  </IconContext.Provider>
+</div>
+</footer> */
 }

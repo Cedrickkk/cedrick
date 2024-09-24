@@ -3,6 +3,7 @@ import Project from "../components/Project";
 import { Button } from "../components/ui/button";
 import NavigationBar from "@/components/NavigationBar";
 import { motion } from "framer-motion";
+import Footer from "@/components/Footer";
 
 export default function Projects() {
   const [isLoading, setIsLoading] = useState(false);
@@ -56,6 +57,7 @@ export default function Projects() {
           </div>
         </div>
       </motion.section>
+      <Footer />
     </>
   );
 }

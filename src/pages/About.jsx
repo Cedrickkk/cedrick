@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import NavigationBar from "@/components/NavigationBar";
 import TechnologyStack from "@/components/TechnologyStack";
 import { motion } from "framer-motion";
@@ -39,6 +40,7 @@ export default function About() {
           </div>
         </div>
       </motion.section>
+      <Footer />
     </>
   );
 }

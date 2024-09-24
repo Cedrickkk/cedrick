@@ -1,13 +1,13 @@
-import Header from "./components/Header";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import PageNotFound from "./pages/PageNotFound";
+import About from "@/pages/About";
+import Projects from "@/pages/Projects";
+import PageNotFound from "@/pages/PageNotFound";
+import HomePage from "./pages/HomePage";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Header />,
+    element: <HomePage />,
   },
   {
     path: "/about",

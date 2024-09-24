@@ -4,12 +4,17 @@ import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { FaMapPin } from "react-icons/fa";
 import NavigationBar from "@/components/NavigationBar";
+import { motion } from "framer-motion";
 
 export default function Header() {
   return (
     <>
       <NavigationBar />
-      <header className="flex h-screen items-center justify-center gap-6 border-b border-b-slate-200">
+      <motion.header
+        className="flex h-screen items-center justify-center gap-6 border-b border-b-slate-200"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+      >
         <Avatar className="size-64">
           <AvatarImage src={myImage} />
           <AvatarFallback>CP</AvatarFallback>
@@ -33,7 +38,7 @@ export default function Header() {
             <Button variant="outline">Resume</Button>
           </div>
         </div>
-      </header>
+      </motion.header>
     </>
   );
 }

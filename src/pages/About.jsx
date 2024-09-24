@@ -1,11 +1,16 @@
 import NavigationBar from "@/components/NavigationBar";
 import TechnologyStack from "@/components/TechnologyStack";
+import { motion } from "framer-motion";
 
 export default function About() {
   return (
     <>
       <NavigationBar />
-      <section className="mt-28">
+      <motion.section
+        className="mt-28"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+      >
         <TechnologyStack />
         <div className="m-3 grid grid-cols-2 gap-20 px-3 py-12">
           <div>
@@ -19,16 +24,21 @@ export default function About() {
             </p>
           </div>
           <div>
-            <h5 className="mb-2 font-bold">Education</h5>
-            <ul className="flex flex-col gap-2">
+            <h5 className="mb-5 font-bold">Education</h5>
+            <ul className="flex flex-col gap-4">
               <li className="text-sm font-semibold">
-                Pamantasan ng Lungsod ng Pasig
-                <small className="block text-slate-500">2023 - Present</small>
+                <div className="flex justify-between">
+                  <p>Pamantasan ng Lungsod ng Pasig</p>
+                  <small className="block text-slate-400">2023 - Present</small>
+                </div>
+                <p className="text-slate-700">
+                  <i>Bachelor of Science in Information Technology</i>
+                </p>
               </li>
             </ul>
           </div>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 }

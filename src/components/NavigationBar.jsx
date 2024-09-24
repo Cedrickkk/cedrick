@@ -1,5 +1,6 @@
 import { Button } from "./ui/button";
 import { NavLink } from "react-router-dom";
+
 export default function NavigationBar() {
   return (
     <nav className="fixed left-0 right-0 top-0 z-10 flex w-full justify-center bg-white/20 py-4 backdrop-blur-sm">

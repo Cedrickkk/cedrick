@@ -15,7 +15,7 @@ export default function TechnologyStack() {
       <h3 className="mb-2 text-2xl font-bold text-slate-800">
         Technology Stack
       </h3>
-      <p className="mb-4 text-slate-700">Technologies I am proficient in</p>
+      <p className="mb-4 text-slate-700">I am proficient in</p>
 
       <IconContext.Provider value={{ size: "4.8rem" }}>
         <div className="flex flex-wrap items-center justify-center gap-4">

@@ -4,10 +4,13 @@ import { Button } from "../components/ui/button";
 import NavigationBar from "@/components/NavigationBar";
 import { motion } from "framer-motion";
 import Footer from "@/components/Footer";
+import { usePageTitle } from "@/hooks/usePageTitle";
 
 export default function Projects() {
   const [isLoading, setIsLoading] = useState(false);
   const [projects, setProjects] = useState([]);
+
+  usePageTitle("Projects");
 
   useEffect(() => {
     const fetchProjects = async () => {

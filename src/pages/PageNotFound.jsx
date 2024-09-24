@@ -1,7 +1,10 @@
 import Footer from "@/components/Footer";
+import { usePageTitle } from "@/hooks/usePageTitle";
 import { Link } from "react-router-dom";
 
 export default function PageNotFound() {
+  usePageTitle("Page not found.");
+
   return (
     <div className="flex h-screen flex-col items-center justify-center gap-12">
       <h1 className="text-6xl text-slate-700">

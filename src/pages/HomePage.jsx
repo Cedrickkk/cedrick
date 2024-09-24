@@ -1,9 +1,11 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import NavigationBar from "@/components/NavigationBar";
+import { usePageTitle } from "@/hooks/usePageTitle";
 import { motion } from "framer-motion";
 
 export default function HomePage() {
+  usePageTitle("Home");
   return (
     <>
       <NavigationBar />

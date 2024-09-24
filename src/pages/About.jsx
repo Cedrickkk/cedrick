@@ -1,19 +1,22 @@
 import Footer from "@/components/Footer";
 import NavigationBar from "@/components/NavigationBar";
 import TechnologyStack from "@/components/TechnologyStack";
+import { usePageTitle } from "@/hooks/usePageTitle";
 import { motion } from "framer-motion";
 
 export default function About() {
+  usePageTitle("About");
+
   return (
     <>
       <NavigationBar />
       <motion.section
-        className="mt-28"
+        className="mt-12 flex h-screen flex-col items-center justify-evenly gap-0"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
       >
         <TechnologyStack />
-        <div className="m-3 grid grid-cols-2 gap-20 px-3 py-12">
+        <div className="m-3 grid grid-cols-2 gap-20 px-3">
           <div>
             <h3 className="mb-2 text-2xl font-bold text-slate-800">About me</h3>
             <p className="text-slate-700">

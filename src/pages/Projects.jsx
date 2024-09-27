@@ -31,12 +31,19 @@ export default function Projects() {
         className="mt-16"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
+        transition={{ delay: 0.1, duration: 1 }}
       >
         <div className="m-3 px-3 py-12">
           <div className="flex justify-between">
             <h3 className="mb-2 text-2xl font-bold text-slate-800">Projects</h3>
             <Button variant="link" className="flex gap-1">
-              <a href="https://github.com/Cedrickkk">@repositories</a>
+              <a
+                href="https://github.com/Cedrickkk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                @repositories
+              </a>
             </Button>
           </div>
 

@@ -6,12 +6,12 @@ import {
 
 export default function Services() {
   return (
-    <section className="m-3 flex flex-col items-center border-b border-b-slate-200 px-3 py-12">
+    <section className="m-3 flex flex-col items-center px-3 py-12">
       <h3 className="mb-2 text-2xl font-bold text-slate-800">Services</h3>
       <p className="text-slate-700">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti!
       </p>
-      <div className="mt-6 grid grid-cols-3 gap-8">
+      <div className="mt-12 grid grid-cols-3 gap-8">
         <div>
           <div className="flex items-center gap-2">
             <div className="relative h-14 w-14 rounded-full bg-muted">

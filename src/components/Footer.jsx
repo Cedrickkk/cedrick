@@ -24,12 +24,13 @@ export default function Footer() {
               <a
                 href="https://www.linkedin.com/in/cedric-panti/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaLinkedin />
               </a>
             </Button>
             <Button variant="link">
-              <a href="mailto:inhog.cedrick@gmail.com">
+              <a href="mailto:inhog.cedrick@gmail.com" target="_blank">
                 <MdEmail />
               </a>
             </Button>
@@ -39,6 +40,7 @@ export default function Footer() {
             <a
               href="https://www.linkedin.com/in/cedric-panti/"
               target="_blank"
+              rel="noreferrer"
               className="mx-2 font-semibold hover:underline"
             >
               John Cedric Panti.

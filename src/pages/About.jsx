@@ -26,8 +26,7 @@ export default function About() {
             <p className="text-slate-700">
               IT student based in the Philippines, currently in my 3rd year. My
               goal is to become a full-stack developer and keep growing my
-              skills in this fast-paced field. I love learning new technologies,
-              where I can learn and apply new knowledge.
+              skills in this fast-paced field.
             </p>
           </div>
           <div>
@@ -38,7 +37,7 @@ export default function About() {
                   <p>Pamantasan ng Lungsod ng Pasig</p>
                   <small className="block text-slate-400">2023 - Present</small>
                 </div>
-                <p className="text-slate-700">
+                <p className="font-[400] text-slate-700">
                   <i>Bachelor of Science in Information Technology</i>
                 </p>
               </li>

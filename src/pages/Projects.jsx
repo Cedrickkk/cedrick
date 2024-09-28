@@ -38,7 +38,7 @@ export default function Projects() {
             <h3 className="mb-2 text-2xl font-bold text-slate-800">Projects</h3>
             <Button variant="link" className="flex gap-1">
               <a
-                href="https://github.com/Cedrickkk"
+                href="https://github.com/Cedrickkk?tab=repositories"
                 target="_blank"
                 rel="noreferrer"
               >

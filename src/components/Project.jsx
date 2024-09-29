@@ -18,11 +18,7 @@ export default function Project({ title, description, image }) {
       </CardHeader>
       <CardContent>
         <AspectRatio ratio={16 / 9} className="bg-muted">
-          <img
-            src="https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd"
-            alt=""
-            className="h-full w-full"
-          />
+          <img src={image} className="h-full w-full" />
         </AspectRatio>
       </CardContent>
       <CardFooter className="flex justify-end gap-3">

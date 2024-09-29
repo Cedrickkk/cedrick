@@ -3,6 +3,7 @@ import myImage from "/profile.jpg";
 import resume from "/resume.pdf";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
+import { MdOutlineFileDownload } from "react-icons/md";
 import { FaMapPin } from "react-icons/fa";
 
 export default function Header() {
@@ -24,11 +25,18 @@ export default function Header() {
             eager to learn and grow.
           </div>
         </div>
-        <div className="mt-6 flex items-center gap-3">
-          <Button>
-            <a href={resume} target="_blank" rel="noreferrer" title="Resume">
+        <div className="mt-6 flex items-center gap-4">
+          <Button className="flex gap-2">
+            <a
+              href={resume}
+              target="_blank"
+              rel="noreferrer"
+              title="Resume"
+              className="block"
+            >
               Resume
             </a>
+            <MdOutlineFileDownload size={18} />
           </Button>
         </div>
       </div>

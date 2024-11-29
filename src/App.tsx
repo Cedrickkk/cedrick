@@ -1,4 +1,4 @@
-import Navigation from "./components/Navigation";
+import Navigation from "@/components/Navigation";
 import About from "./sections/About";
 import Hero from "./sections/Hero";
 

@@ -1,31 +1,8 @@
-import ContentBox from "../components/ContentBox";
-import ContentHeader from "../components/ContentHeader";
-import Highlight from "../components/Highlight";
-import SectionHeader from "../components/SectionHeader";
-
-const FRONTEND = {
-  title: "Frontend",
-  items: [
-    "Javascript",
-    "HTML",
-    "React",
-    "CSS",
-    "Typescript",
-    "Inertia",
-    "PHP",
-    "Tailwind",
-  ],
-};
-
-const BACKEND = {
-  title: "Backend",
-  items: ["Node", "Laravel", "Express", "MySQL"],
-};
-
-const TOOLS = {
-  title: "Tools",
-  items: ["Git", "GitHub", "Figma"],
-};
+import { BACKEND, FRONTEND, TOOLS } from "@/data";
+import ContentBox from "@/components/ContentBox";
+import ContentHeader from "@/components/ContentHeader";
+import Highlight from "@/components/Highlight";
+import SectionHeader from "@/components/SectionHeader";
 
 export default function About() {
   return (
@@ -45,12 +22,13 @@ export default function About() {
           <ContentBox>
             <ContentHeader>Academic Journey</ContentHeader>
             <p>
-              I’m currently in my third year at
+              I’m currently in my third year at &nbsp;
               <Highlight>Pamantasan ng Lungsod ng Pasig,</Highlight> working
-              toward my bachelor’s degree. At the same time, I’m learning
-              <Highlight>React</Highlight> and <Highlight>Laravel</Highlight>
-              to deepen my knowledge in
-              <Highlight>full-stack web development</Highlight>.
+              toward my bachelor’s degree. At the same time, I’m learning&nbsp;
+              <Highlight>React</Highlight> and&nbsp;
+              <Highlight>Laravel</Highlight>&nbsp; to deepen my knowledge
+              in&nbsp;
+              <Highlight>full-stack web development.</Highlight>
             </p>
           </ContentBox>
           <ContentBox>
@@ -74,7 +52,7 @@ export default function About() {
           </ContentBox>
         </div>
       </section>
-      <section id="projects" className="scroll-mt-16 lg:scroll-mt-24">
+      <section>
         <SectionHeader>Technology Stack</SectionHeader>
         <p>
           Here are some of the technologies and tools I’ve currently working

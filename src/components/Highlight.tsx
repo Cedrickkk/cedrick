@@ -3,7 +3,5 @@ type HighlightProps = {
 };
 
 export default function Highlight({ children }: HighlightProps) {
-  return (
-    <span className="px-1 font-medium hover:text-secondary">{children}</span>
-  );
+  return <span className="font-medium hover:text-secondary">{children}</span>;
 }

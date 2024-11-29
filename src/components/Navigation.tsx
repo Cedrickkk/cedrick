@@ -12,7 +12,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="fixed left-0 top-0 z-40 hidden min-h-16 w-full justify-center bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-background/80 md:flex">
+    <nav className="fixed left-0 top-0 z-40 hidden min-h-16 w-full justify-center bg-white/30 backdrop-blur-sm supports-[backdrop-filter]:bg-secondary/80 md:flex">
       <ul
         className="flex items-center justify-between gap-4 text-xs font-medium uppercase"
         onClick={handleSmoothScroll}

@@ -4,9 +4,9 @@ export default function Hero() {
       <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
         John Cedric Panti
       </h1>
-      <h3 className="mt-3 text-xl font-medium">
+      <h2 className="mt-3 text-xl font-medium">
         Aspiring Full-Stack Developer
-      </h3>
+      </h2>
       <p className="mt-4">
         Growing, learning, and evolving — one step at a time.
       </p>

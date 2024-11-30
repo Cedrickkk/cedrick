@@ -7,8 +7,8 @@ import SectionHeader from "@/components/SectionHeader";
 export default function About() {
   return (
     <>
-      <section id="about" className="mb-24 scroll-mt-16 lg:scroll-mt-24">
-        <SectionHeader>About</SectionHeader>
+      <section id="about" className="mb-24 scroll-mt-24">
+        <SectionHeader>About </SectionHeader>
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
           <ContentBox>
             <ContentHeader>A Closer Look</ContentHeader>
@@ -37,8 +37,8 @@ export default function About() {
               I balance my technical pursuits with hobbies that allow me to
               unwind. Playing the <Highlight>guitar</Highlight> helps me relax,
               and on quieter days, I enjoy watching
-              <Highlight>movies,</Highlight> which expose me to diverse and
-              perspectives.
+              <Highlight>&nbsp;movies,</Highlight> which expose me to diverse
+              and perspectives.
             </p>
           </ContentBox>
           <ContentBox>
@@ -46,13 +46,13 @@ export default function About() {
             <p>
               As I grow in my journey, I’m looking forward to expanding my skill
               set by diving into <Highlight>Next.js</Highlight> and
-              <Highlight>.NET,</Highlight> I believe these frameworks will
+              <Highlight>&nbsp;.NET,</Highlight> I believe these frameworks will
               enhance my existing skills and unlock new opportunities.
             </p>
           </ContentBox>
         </div>
       </section>
-      <section>
+      <section className="mb-24">
         <SectionHeader>Technology Stack</SectionHeader>
         <p>
           Here are some of the technologies and tools I’ve currently working

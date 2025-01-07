@@ -19,5 +19,5 @@ export const BACKEND = {
 
 export const TOOLS = {
   title: "Tools",
-  items: ["Git", "GitHub", "Figma"],
+  items: ["Git", "Figma", "GitHub"],
 };

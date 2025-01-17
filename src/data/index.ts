@@ -44,7 +44,7 @@ export const ABOUT = [
     ],
   },
   {
-    header: "Hobbies and Interests",
+    header: "Hobbies & Interests",
     content: [
       "I balance my technical pursuits with hobbies that allow me to unwind. Playing the",
       { highlight: " guitar " },

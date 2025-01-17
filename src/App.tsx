@@ -1,10 +1,10 @@
-import Navigation from "@/components/Navigation";
 import { useEffect, useRef } from "react";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Hero from "./sections/Hero";
 import Projects from "./sections/Projects";
 import Footer from "./sections/Footer";
+import Navigation from "@/components/Navigation";
 
 export default function App() {
   const containerRef = useRef<HTMLDivElement | null>(null);

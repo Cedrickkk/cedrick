@@ -10,7 +10,7 @@ export default function Hero() {
       <h2 className="mt-3 text-xl font-medium">
         Aspiring Full-Stack Web Developer
       </h2>
-      <p className="mt-4">
+      <p className="mt-4 text-sm">
         <i>Growing, learning, and evolving — one step at a time.</i>
       </p>
       <div className="ml-1 mt-8 flex gap-3">

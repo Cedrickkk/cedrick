@@ -40,7 +40,7 @@ export const ABOUT = [
       { highlight: " React " },
       " and ",
       { highlight: "Laravel " },
-      " to deepen my knowledge in full-stack web development",
+      " to deepen my knowledge in full-stack web development.",
     ],
   },
   {
@@ -50,7 +50,7 @@ export const ABOUT = [
       { highlight: " guitar " },
       "helps me to relax, and on quieter days, I enjoy watching",
       { highlight: " movies, " },
-      "which expose me to diverse perspectives",
+      "which expose me to diverse perspectives.",
     ],
   },
   {

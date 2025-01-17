@@ -1,8 +1,8 @@
-import { ABOUT, BACKEND, FRONTEND, TOOLS } from "@/data";
 import Highlight from "@/components/Highlight";
 import AboutSection from "@/components/AboutSection";
 import SectionHeader from "@/components/SectionHeader";
 import TechnologySection from "@/components/TechnologySection";
+import { ABOUT, BACKEND, FRONTEND, TOOLS } from "@/data/index";
 
 export default function About() {
   return (

@@ -36,7 +36,7 @@ export const ABOUT = [
     content: [
       "I’m currently in my third year at ",
       { highlight: "Pamantasan ng Lungsod ng Pasig" },
-      " working toward my bachelor’s degree. At the same time, I’m learning At the same time, I’m learning",
+      " working toward my bachelor’s degree. At the same time, I’m learning",
       { highlight: " React " },
       " and ",
       { highlight: "Laravel " },

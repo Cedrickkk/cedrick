@@ -22,7 +22,7 @@ export default function Projects() {
             <TagBadge>Python</TagBadge>
             <TagBadge>Inertia</TagBadge>
           </div>
-          <div className="mt-4 flex gap-3">
+          <div className="mt-4 flex items-center gap-3">
             <img src="github_link.svg" alt="" />
             <a href="http://qmsopticore.com" target="__blank" rel="noreferrer">
               <img src="link.svg" alt="" />
@@ -42,8 +42,12 @@ export default function Projects() {
           className="order-1 w-full cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 md:order-none md:w-1/2"
         />
         <div className="flex w-full flex-col space-y-3 md:w-1/2">
-          <h6 className="font-medium leading-5">
-            Pamantasan ng Lungsod ng Pasig Quality Management System
+          <h6 className="flex items-center gap-2 font-medium leading-5">
+            <img src="link.svg" alt="" className="size-4" />
+
+            <span className="transition duration-300 ease-in-out hover:cursor-pointer hover:text-secondary">
+              Pamantasan ng Lungsod ng Pasig Quality Management System
+            </span>
           </h6>
           <p className="text-sm leading-6 text-primary">
             A Document Management System aimed to improved document efficiency
@@ -57,11 +61,11 @@ export default function Projects() {
             <TagBadge>Python</TagBadge>
             <TagBadge>Inertia</TagBadge>
           </div>
-          <div className="mt-4 flex gap-3">
+          <div className="mt-4 flex items-center gap-3">
             <img src="github_link.svg" alt="" />
-            <a href="http://qmsopticore.com" target="__blank" rel="noreferrer">
-              <img src="link.svg" alt="" />
-            </a>
+            <span className="cursor-pointer text-xs uppercase text-muted-foreground hover:text-primary hover:underline">
+              Learn more
+            </span>
           </div>
         </div>
       </div>

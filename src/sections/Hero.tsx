@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <header
       id="home"
-      className="mx-auto max-w-screen-xl px-6 py-16 md:px-12 md:py-28 lg:flex lg:min-h-screen lg:flex-col lg:items-center lg:justify-center lg:px-24 lg:py-0"
+      className="mx-auto max-w-screen-xl px-6 py-12 md:px-12 md:py-28 lg:flex lg:min-h-screen lg:flex-col lg:items-center lg:justify-center lg:px-24 lg:py-0"
     >
       <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
         John Cedric Panti

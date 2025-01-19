@@ -24,11 +24,11 @@ export default function App() {
   }, []);
 
   return (
-    <div className="relative">
+    <>
       {/* <div
         ref={containerRef}
         className="pointer-events-none lg:fixed lg:inset-0 lg:z-30 lg:bg-[radial-gradient(600px_circle_at_var(--x)_var(--y),_rgba(50,_130,_184,_.15),_transparent_80%)] lg:transition lg:duration-300"
-      ></div> */}
+        ></div> */}
       <div>
         <Navigation />
         <Hero />
@@ -39,6 +39,6 @@ export default function App() {
         </main>
       </div>
       <Footer />
-    </div>
+    </>
   );
 }

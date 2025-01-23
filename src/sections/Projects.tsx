@@ -12,7 +12,10 @@ export default function Projects() {
           className="order-1 w-full cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 md:order-none md:w-1/2"
         />
         <div className="flex w-full flex-col md:w-1/2">
-          <h6 className="flex items-center gap-2 font-medium leading-5">
+          <h6
+            className="flex items-center gap-2 font-medium leading-5"
+            onClick={() => window.open("https://qmsopticore.com/", "_blank")}
+          >
             <img src="link.svg" alt="" className="size-4" />
 
             <span className="transition duration-300 ease-in-out hover:cursor-pointer hover:text-secondary">

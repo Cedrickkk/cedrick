@@ -1,6 +1,6 @@
 import GitHub from "@/components/icons/GitHub";
 import LinkedIn from "@/components/icons/LinkedIn";
-import Mail from "@/components/icons/Mail";
+import Resume from "@/components/icons/Resume";
 import SVGIcon from "@/components/SVGIcon";
 
 export default function Hero() {
@@ -23,8 +23,8 @@ export default function Hero() {
         <SVGIcon href="https://www.linkedin.com/in/cedric-panti">
           <LinkedIn />
         </SVGIcon>
-        <SVGIcon href="mailto:inhog.cedrick@gmail.com">
-          <Mail />
+        <SVGIcon href="resume.pdf">
+          <Resume />
         </SVGIcon>
       </div>
     </header>

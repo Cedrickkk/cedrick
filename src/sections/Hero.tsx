@@ -1,4 +1,7 @@
-import { SOCIALS } from "@/data";
+import GitHub from "@/components/icons/GitHub";
+import LinkedIn from "@/components/icons/LinkedIn";
+import Mail from "@/components/icons/Mail";
+import SVGIcon from "@/components/SVGIcon";
 
 export default function Hero() {
   return (
@@ -14,16 +17,15 @@ export default function Hero() {
         <i>Growing, learning, and evolving — one step at a time.</i>
       </p>
       <div className="mt-8 flex gap-3">
-        {SOCIALS.map((link, index) => (
-          <a
-            key={index}
-            href={link.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={link.src} alt={link.alt} />
-          </a>
-        ))}
+        <SVGIcon href="https://github.com/Cedrickkk">
+          <GitHub />
+        </SVGIcon>
+        <SVGIcon href="https://www.linkedin.com/in/cedric-panti">
+          <LinkedIn />
+        </SVGIcon>
+        <SVGIcon href="mailto:inhog.cedrick@gmail.com">
+          <Mail />
+        </SVGIcon>
       </div>
     </header>
   );

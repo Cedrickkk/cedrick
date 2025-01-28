@@ -64,21 +64,3 @@ export const ABOUT = [
     ],
   },
 ];
-
-export const SOCIALS = [
-  {
-    href: "https://github.com/Cedrickkk",
-    src: "github_black.svg",
-    alt: "GitHub",
-  },
-  {
-    href: "https://www.linkedin.com/in/cedric-panti",
-    src: "linkedin.svg",
-    alt: "LinkedIn",
-  },
-  {
-    href: "mailto:inhog.cedrick@gmail.com",
-    src: "mail.svg",
-    alt: "Email",
-  },
-];

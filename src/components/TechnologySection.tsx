@@ -13,7 +13,7 @@ export default function TechnologySection({
       <div className="grid grid-cols-2 gap-x-4 gap-y-3">
         {items.map((item) => (
           <div
-            className="flex items-center gap-3 font-medium text-secondary"
+            className="flex cursor-pointer items-center gap-3 font-medium text-secondary transition duration-300 hover:scale-105"
             key={item}
           >
             <img src={`${item.toLowerCase()}.svg`} alt={item} />

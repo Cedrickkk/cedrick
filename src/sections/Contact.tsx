@@ -8,7 +8,13 @@ export default function Contact() {
           internship or job. <br /> I’d love to hear from you!
         </p>
         <button className="mt-9 rounded-sm bg-secondary p-3 text-center text-lg font-semibold text-white">
-          Let's Connect
+          <a
+            href="mailto: inhog.cedrick@gmail.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Let's Connect
+          </a>
         </button>
       </div>
     </section>

@@ -1,8 +1,3 @@
-import GitHub from "@/components/icons/GitHub";
-import LinkedIn from "@/components/icons/LinkedIn";
-import Resume from "@/components/icons/Resume";
-import SVGIcon from "@/components/SVGIcon";
-
 export default function Hero() {
   return (
     <header
@@ -14,9 +9,9 @@ export default function Hero() {
       </h1>
       <h2 className="mt-3 text-xl font-medium">Full-Stack Web Developer</h2>
       <p className="mt-4">
-        <i>Growing, learning, and evolving — one step at a time.</i>
+        Growing, learning, and evolving — one step at a time.
       </p>
-      <div className="mt-8 flex gap-3">
+      {/* <div className="mt-8 flex gap-3">
         <SVGIcon href="https://github.com/Cedrickkk">
           <GitHub />
         </SVGIcon>
@@ -26,7 +21,7 @@ export default function Hero() {
         <SVGIcon href="resume.pdf">
           <Resume />
         </SVGIcon>
-      </div>
+      </div> */}
     </header>
   );
 }

@@ -28,7 +28,9 @@ export const ABOUT = [
     content: [
       "I’m an ",
       { highlight: "IT student" },
-      " from the Philippines dedicated to web development and designing simple yet user-friendly interfaces. I enjoy learning new things and improving my skills to solve real-world problems.",
+      " from the Philippines focused on web development. Currently working on both frontend and backend skills to become a ",
+      { highlight: " Full-Stack Developer. " },
+      "Building practical projects while studying to gain more knowledge and apply it into working applications.",
     ],
   },
   {
@@ -46,21 +48,21 @@ export const ABOUT = [
   {
     header: "Hobbies & Interests",
     content: [
-      "I balance my technical pursuits with hobbies that allow me to unwind. Playing the",
+      "Beyond coding, I find relaxation in playing the",
       { highlight: " guitar " },
-      "helps me to relax, and on quieter days, I enjoy watching",
+      "and watching",
       { highlight: " movies, " },
-      "which expose me to diverse perspectives.",
+      "These help me unwind and gain diverse perspectives.",
     ],
   },
   {
     header: "Future Plans",
     content: [
-      "As I grow in my journey, I’m looking forward to expanding my skill set by diving into",
-      { highlight: " Next.js " },
+      "I'm looking forward to expanding my skill set by diving into",
+      { highlight: " Java Spring Boot " },
       "and",
       { highlight: " .NET, " },
-      "I believe these frameworks will enhance my existing skills and unlock new opportunities.",
+      "which will enhance my existing knowledge and open new opportunities in a more backend centric role.",
     ],
   },
 ];

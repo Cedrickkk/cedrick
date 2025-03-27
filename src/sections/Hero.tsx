@@ -11,17 +11,7 @@ export default function Hero() {
       <p className="mt-4">
         Growing, learning, and evolving — one step at a time.
       </p>
-      {/* <div className="mt-8 flex gap-3">
-        <SVGIcon href="https://github.com/Cedrickkk">
-          <GitHub />
-        </SVGIcon>
-        <SVGIcon href="https://www.linkedin.com/in/cedric-panti">
-          <LinkedIn />
-        </SVGIcon>
-        <SVGIcon href="resume.pdf">
-          <Resume />
-        </SVGIcon>
-      </div> */}
+      
     </header>
   );
 }

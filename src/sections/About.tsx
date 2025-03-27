@@ -1,4 +1,3 @@
-import Highlight from "@/components/Highlight";
 import AboutSection from "@/components/AboutSection";
 import SectionHeader from "@/components/SectionHeader";
 import TechnologySection from "@/components/TechnologySection";
@@ -13,13 +12,7 @@ export default function About() {
           {ABOUT.map((section, idx) => {
             return (
               <AboutSection key={idx} header={section.header}>
-                {section.content.map((item, idx) =>
-                  typeof item === "string" ? (
-                    item
-                  ) : (
-                    <Highlight key={idx}>{item.highlight}</Highlight>
-                  ),
-                )}
+                {section.content}
               </AboutSection>
             );
           })}

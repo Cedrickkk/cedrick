@@ -16,8 +16,6 @@ export default function Projects() {
             className="flex items-center gap-2 font-medium leading-5"
             onClick={() => window.open("https://qmsopticore.com/", "_blank")}
           >
-            <img src="link.svg" alt="" className="size-4" />
-
             <span className="transition duration-300 ease-in-out hover:cursor-pointer hover:text-secondary">
               Pamantasan ng Lungsod ng Pasig Quality Management System
             </span>

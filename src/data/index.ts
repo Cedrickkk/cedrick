@@ -26,12 +26,12 @@ export const ABOUT = [
   {
     header: "A Closer Look",
     content:
-      "I’m an IT student from the Philippines focused on web development. Currently working on both frontend and backend skills to become a Full-Stack Developer. Building practical projects while studying to gain more knowledge and apply it into working applications.",
+      "I’m an IT student from the Philippines focused on web development. Currently working on both frontend and backend skills to become a Full-Stack Developer.",
   },
   {
     header: "Academic Journey",
     content:
-      "I’m currently in my third year at Pamantasan ng Lungsod ng Pasig working toward my bachelor’s degree. At the same time, I’m learning React and Laravel  to deepen my knowledge in full-stack web development.",
+      "I’m currently in my third year at Pamantasan ng Lungsod ng Pasig working toward my bachelor’s degree. At the same time, I’m learning React and Laravel to deepen my knowledge in full-stack web development.",
   },
   {
     header: "Hobbies & Interests",

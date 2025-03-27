@@ -33,19 +33,16 @@ export default function Projects() {
             <TagBadge>Inertia</TagBadge>
           </div>
           <div className="mt-6 flex items-center gap-3">
-            <img src="github_link.svg" alt="" />
-            <span className="cursor-pointer text-xs uppercase text-muted-foreground hover:text-primary hover:underline">
-              Learn more
-            </span>
+            <p className="flex cursor-pointer items-center gap-2 text-xs font-medium uppercase text-primary">
+              <span>Read More</span>
+              <img src="arrow-right.svg" alt="" className="brightness-50" />
+            </p>
           </div>
         </div>
       </div>
       <div className="flex justify-end">
-        <h6 className="group mt-9 flex cursor-pointer items-center gap-1 font-medium">
+        <h6 className="group mt-9 flex cursor-pointer items-center gap-2 font-medium">
           View Other Projects
-          <span className="transition-transform duration-300 group-hover:translate-x-1">
-            <img src="arrow-right.svg" alt="" />
-          </span>
         </h6>
       </div>
     </section>

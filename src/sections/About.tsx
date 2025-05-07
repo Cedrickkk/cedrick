@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <section id="about" className="mb-24 scroll-mt-24">
-        <SectionHeader>About</SectionHeader>
+        <SectionHeader>About Me</SectionHeader>
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
           {ABOUT.map((section, idx) => {
             return (

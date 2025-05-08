@@ -7,7 +7,7 @@ export default function Hero() {
       <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
         John Cedric Panti
       </h1>
-      <h2 className="mt-3 text-xl font-medium">Full-Stack Web Developer</h2>
+      <h2 className="mt-3 text-xl font-medium">Full-Stack Developer</h2>
       <p className="mt-4">
         Growing, learning, and evolving — one step at a time.
       </p>

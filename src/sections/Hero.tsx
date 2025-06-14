@@ -11,7 +11,6 @@ export default function Hero() {
       <p className="mt-4">
         Growing, learning, and evolving — one step at a time.
       </p>
-      
     </header>
   );
 }

@@ -9,7 +9,7 @@ export default function TechnologySection({
 }: TechnologySectionProps) {
   return (
     <li>
-      <h5 className="mb-3 text-lg font-medium">{title}</h5>
+      <h5 className="mb-3 text-base font-medium">{title}</h5>
       <div className="grid grid-cols-2 gap-x-4 gap-y-3">
         {items.map((item) => (
           <div
